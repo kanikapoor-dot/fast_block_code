@@ -71,5 +71,6 @@ README.md                – Documentation<br>
 .gitignore               – Visual Studio ignore rules<br>
 bin/                     – Prebuilt binaries
 
+## Build and Test
 
-
+This project was built and tested on Windows 11 using the MSVC toolchain (Visual Studio 2022).
