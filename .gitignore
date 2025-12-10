@@ -1,0 +1,49 @@
+# Build results
+Debug/
+Release/
+x64/
+x86/
+build/
+out/
+
+# IDE specific
+.vs/
+*.user
+*.suo
+*.ncb
+*.opensdf
+*.sdf
+*.cachefile
+
+# Compiled binary files
+*.obj
+*.exe
+*.pdb
+*.lib
+*.dll
+*.exp
+*.log
+
+# Intermediate build files
+ipch/
+*.iobj
+*.ipdb
+*.idb
+
+# Generated files
+*.ilk
+*.pch
+
+# Temporary files
+*.tmp
+*.cache
+*.bak
+
+# Visual Studio Code folders
+.vscode/
+
+# CMake
+CMakeFiles/
+CMakeCache.txt
+cmake_install.cmake
+Makefile
