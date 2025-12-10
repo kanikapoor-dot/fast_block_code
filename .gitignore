@@ -1,4 +1,4 @@
-# Build results
+﻿
 Debug/
 Release/
 x64/
@@ -6,7 +6,6 @@ x86/
 build/
 out/
 
-# IDE specific
 .vs/
 *.user
 *.suo
@@ -15,9 +14,8 @@ out/
 *.sdf
 *.cachefile
 
-# Compiled binary files
-*.obj
 *.exe
+*.obj
 *.pdb
 *.lib
 *.dll
@@ -39,7 +37,7 @@ ipch/
 *.cache
 *.bak
 
-# Visual Studio Code folders
+# VS Code
 .vscode/
 
 # CMake
@@ -47,3 +45,11 @@ CMakeFiles/
 CMakeCache.txt
 cmake_install.cmake
 Makefile
+
+!bin/
+
+!bin/x86/
+!bin/x86/*.exe
+
+!bin/x64/
+!bin/x64/*.exe
